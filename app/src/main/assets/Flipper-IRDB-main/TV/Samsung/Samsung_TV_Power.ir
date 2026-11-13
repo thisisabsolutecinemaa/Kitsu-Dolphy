@@ -1,0 +1,5 @@
+# This is a sample IR file in Flipper-IRDB format.
+name: Samsung TV Power
+frequency: 38000
+protocol: NEC
+data: 255 0 255 0 255 0 255 0
