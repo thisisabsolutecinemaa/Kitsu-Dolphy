@@ -54,6 +54,9 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3:1.3.0")
+    // Provides XML Theme.Material3.* and colorPrimary/colorOnPrimary resource attributes
+    // used by app/src/main/res/values/themes.xml (distinct from Compose Material3).
+    implementation("com.google.android.material:material:1.13.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
     implementation("no.nordicsemi.android:ble:2.7.2")
