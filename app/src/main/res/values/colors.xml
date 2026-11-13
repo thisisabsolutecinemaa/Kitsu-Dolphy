@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_primary">#DC2626</color>
+    <color name="red_on_primary">#FFFFFF</color>
+    <color name="red_primary_container">#FDE2E2</color>
+    <color name="red_on_primary_container">#3B0A0A</color>
+    <color name="red_secondary">#EF4444</color>
+    <color name="red_on_secondary">#FFFFFF</color>
+    <color name="red_background">#111111</color>
+    <color name="red_surface">#1E1E1E</color>
+</resources>

@@ -34,7 +34,7 @@ object IrRepository {
                 }
                 trimmed.startsWith("data:") -> {
                     raw = trimmed.removePrefix("data:").trim()
-                    val values = raw!!.split(Regex("\\s+"))
+                    val values = raw.split(Regex("\\s+"))
                         .mapNotNull { it.toIntOrNull() }
                     pattern = values.toIntArray()
                 }
